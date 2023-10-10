@@ -5,22 +5,20 @@ df = pd.read_csv('C:/Users/demax.000/Documents/GitHub/US_Software_Jobs/data/raw/
 
 df = pd.DataFrame(df)
 
-# head
+# # head
+# print('head 5')
 # print(df.head(4))
 
-# columns
-print(df.columns)
+# # columns
+# print('columns:')
+# print(df.columns)
 
-# describe
-print(df.describe())
+# # describe
+# print('shape:')
+# print(df.describe())
 
-# size
-print(df.len())
+# # size
+# print('info')
+# print(df.info())
 
-
-# print(df.head(4))
-# print(df.head(4))
-# print(df.head(4))
-
-
-# print(df.head(4))
+print(df.iloc[1,:])
